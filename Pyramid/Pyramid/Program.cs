@@ -10,6 +10,24 @@ namespace Pyramid
         //2nd line: "input string  to print" "height of pyramid" "inversePyramid" e.g., abc 4 1 or abcdefg 4 -1
         static void Main(string[] args)
         {
+            /* 
+             abc 4 1
+            
+                a
+               acb
+              bcabc
+             acbacba
+
+            =============
+
+            abc 4 -1
+
+            abcabca
+             cbacb
+              abc
+               a
+
+             */
             Console.WriteLine("Enter no of test cases");
             var t = int.Parse(Console.ReadLine());
             while (t-- > 0)
